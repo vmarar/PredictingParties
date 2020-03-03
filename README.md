@@ -1,6 +1,21 @@
 # PredictingParties
-Predicting Political Parties Using Twitter Data 
 
-This was a project that used a dataset of tweets from politcal figures both Democratic and Republican. The goal was to use different machine learning algorithims alongside CountVectorizer and TF-IDF to predict whether a tweet is Democratic or Republican. 
 
-This was a final project for one of my classes , attached above is report the for the project as well. Thanks for reading! 
+This project aims to be able to identify what political ideology an account on social media is representing or is aligned with based on their language used.
+
+     To approach this problem tweets will be analyzed using a series of data visualization techniques, and then will be used to create machine learning models to predict political affiliation. The language used by Democrats or Republicans are specific to their ideologies, therefore analyzing tweets written by political representatives will be a great asset to our machine learning models. Political representatives use very politically correct and specific jargon that is unique to their political parties lexicon. 
+
+    Using methods such as Count Vectorizer and TF-IDF, a series of models were created to predict what party a tweet is leaning towards or identifies as. The models will then be compared based on accuracy and their confusion matrix to determine which one is most suitable for this task.
+
+APPROACH : 
+1. Sentiment Analysis 
+2. StopWords, Stemming and Lemmatization
+3. TF-IDF
+4. CountVectorizer 
+
+Models Used:
+1. Naive Bayes Multinomial Classifier 
+2. SVM Linear Kernel 
+3. Decision Tree Regressor 
+
+    Overall the models that we used did well, the SVM Linear Kernel and the Naive Bayes Multinomial Classifier were the best choices. According to the accuracy score and the confusion matrix of the above models, the Naive Bayes model would be the best choice but the Linear Kernel did similarly.
