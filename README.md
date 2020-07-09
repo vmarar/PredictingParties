@@ -17,5 +17,3 @@ Models Used:
 1. Naive Bayes Multinomial Classifier 
 2. SVM Linear Kernel 
 3. Decision Tree Regressor 
-
-    Overall the models that we used did well, the SVM Linear Kernel and the Naive Bayes Multinomial Classifier were the best choices. According to the accuracy score and the confusion matrix of the above models, the Naive Bayes model would be the best choice but the Linear Kernel did similarly.
